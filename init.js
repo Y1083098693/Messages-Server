@@ -1,5 +1,7 @@
-const initDB = require('./controller/init')
+const initDB = require("./controller/init");
 
-initDB.initSystemUser()
-initDB.initAccountPool()
-initDB.initSuperUser()
+initDB.initSystemUser();
+initDB.initAccountPool();
+initDB.initSuperUser();
+initDB.initBlogCategory();
+initDB.initBlogTag();

@@ -1,8 +1,8 @@
 const { API_VERSION } = require("./../const");
-const ACCESS_KEY = "frWfpDLauQSLS9pLI5fIQEGTxMFnpqfHCrZXn1da";
-const SECRET_KEY = "otLFopTxILdZf8KX9hg1TCTUB1hXj9_SdhKrq1P_";
-const BUCKET = "chenchao";
-const TOKEN_SECRET = "ronaldo";
+const ACCESS_KEY = "NHdHZRfM_DEYiCyPot1cZ3tnepuYVtUhbffkaa8k";
+const SECRET_KEY = "GkMKHmg9J7HlAZJUUf8V_KatPB72hVkNVEEQwwmV";
+const BUCKET = "wechat-messager";
+const TOKEN_SECRET = "ronaldo"; // 密钥
 
 /**不需要验证token的白名单 */
 const WHITE_LIST = [
