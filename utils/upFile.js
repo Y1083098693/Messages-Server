@@ -10,12 +10,17 @@ const storage = multer.diskStorage({
     const isExitPath = fs.existsSync(path);
     const pathDate = "./public/uploads/" + date;
     const isExitPathDate = fs.existsSync(pathDate);
+    // 判断路径是否存在
     if (!isExitPath) {
+      // 如果不存在，创建路径
       fs.mkdirSync(path);
     }
+    // 判断路径是否存在
     if (!isExitPathDate) {
+      // 如果不存在，创建路径
       fs.mkdirSync(pathDate);
     }
+    // 设置回调路径
     cb(null, pathDate);
   },
   // 重命名文件
